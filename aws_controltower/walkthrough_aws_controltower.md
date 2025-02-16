@@ -23,7 +23,7 @@ The progress can be monitored in the AWS Management Console under the AWS Contro
 
 ----
 ## Resources
-- https://docs.aws.amazon.com/controltower/latest/userguide/what-is-control-tower.html
+- [AWS Control Tower Documentation](https://docs.aws.amazon.com/controltower/latest/userguide/what-is-control-tower.html)
 
 ----
 ## Terraform Deployment Code

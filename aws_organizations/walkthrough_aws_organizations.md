@@ -1,10 +1,10 @@
-# AWS Organizations
+# Overview
 
-## Overview
+## What is AWS Organizations?
 
 AWS Organizations is a service that allows you to centrally manage and govern your environment as you grow and scale your AWS resources. It enables you to consolidate multiple AWS accounts into an organization that you create and centrally manage. With AWS Organizations, you can automate account creation, apply policies to groups of accounts, and simplify billing by using a single payment method for all your accounts.
 
-## Why Use AWS Organizations?
+## Benefits of AWS Organizations
 
 1. **Centralized Management**: Manage multiple AWS accounts from a single location. This makes it easier to apply policies and monitor usage across all accounts.
 
@@ -40,5 +40,11 @@ In this diagram:
 - **Accounts** are individual AWS accounts within the organization called `member` accounts.
 
 ---
+## Resources
+- [AWS Organizations Documentation](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduction.html)
+
+---
 ## Terraform Deployment Code
-Within `.code/main.tf`, I've provided Terraform code for creating an AWS Organization, AWS Organizational Units (OUs), and AWS Accounts. This code will help you automate the setup of your AWS Organization structure, including the creation of OUs and the addition of member accounts.
+Within `aws_organizations/code/main.tf`, I've provided Terraform code for creating an AWS Organization, AWS Organizational Units (OUs), and AWS Accounts. The code assumes you're setting this up from scratch (e.g., need to create a new AWS Organization and add member accounts).
+
+The code has been left in a simplifed state (i.e., not using modules, loops, or other advanced Terraform features) to be more easily accessible. You can customize it further to meet your specific requirements.

@@ -1,9 +1,17 @@
 /*
+------------------------------------------------------------------------------
+Description:
+  - AWS Accounts can be provisioned this way, but AWS ControlTower and Account Factory offer better customization and guardrails. Creating an AWS Organization resource is required when enabling AWS ControlTower via API/Terraform.
 
-AWS Accounts can be provisioned this way, but AWS ControlTower and Account Factory offer better customization and guardrails. Creating an AWS Organization resource is required when enabling AWS ControlTower via API/Terraform.
 
-Additionally, modules can be built to reduce repeat code for the OUs and/or Accounts but I've kept this simple so the code is more accessible to folks.
+Improvement Ideas:
+  - The code has been kept simple for accessibility. Consider building modules for the creation of OUs and Accounts to reduce repeat code.
 
+
+Pricing Alert:
+  - AWS Organizations is offered at no additional charge. You are charged only for AWS resources that users and roles in your member accounts use. 
+  - For more information, see the AWS Organizations pricing page: https://docs.aws.amazon.com/organizations/latest/userguide/pricing.html
+------------------------------------------------------------------------------
 */
 
 # Create an AWS Organization
