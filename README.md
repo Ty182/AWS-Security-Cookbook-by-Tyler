@@ -1,4 +1,4 @@
-# AWS Security Cookbook by Tyler 📖☁️
+# AWS Security Cookbook by Tyler 📖 ☁️
 Welcome to my AWS Security Cookbook - a collection of AWS security service overviews and related code designed to help you understand, deploy, and experiment with various AWS security services. This repository provides Terraform code to simplify provisioning and enablement, allowing you to quickly spin up AWS environments for learning, testing, or building real-world use cases.
 
 ## What's Inside?
