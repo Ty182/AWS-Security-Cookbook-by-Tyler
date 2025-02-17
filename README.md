@@ -27,6 +27,8 @@ Welcome to my AWS Security Cookbook - a collection of recipes (guides) to help y
 
 ✅ AWS Service Control Policies (SCPs)
 
+✅ AWS Root Account Management
+
 ☑️ AWS Resource Control Policies (RCPs)
 
 ☑️ AWS Declarative Policies
