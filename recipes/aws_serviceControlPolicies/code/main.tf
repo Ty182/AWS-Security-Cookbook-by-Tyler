@@ -127,7 +127,7 @@ resource "aws_organizations_policy" "critical_services_scp" {
   })
 }
 
-# Apply SCP at the Dev OU level (only applies to the Dev account in this OU)
+# Step 5: Apply SCP at the Dev OU level (only applies to the Dev account in this OU)
 resource "aws_organizations_policy_attachment" "critical_services_scp" {
   policy_id = aws_organizations_policy.critical_services_scp.id
   target_id = aws_organizations_organizational_unit.dev_ou.id
