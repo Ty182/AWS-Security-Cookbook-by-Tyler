@@ -25,7 +25,7 @@ Welcome to my AWS Security Cookbook - a collection of recipes (guides) to help y
 
 ✅ AWS Control Tower
 
-☑️ AWS Service Control Policies (SCPs)
+✅ AWS Service Control Policies (SCPs)
 
 ☑️ AWS Resource Control Policies (RCPs)
 
