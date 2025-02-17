@@ -126,7 +126,7 @@ resource "aws_iam_role_policy" "aws_control_tower_cloudtrail_role_policy" {
 # Create AWSControlTowerStackSetRole Role
 resource "aws_iam_role" "aws_control_tower_stackset_role" {
   name        = "AWSControlTowerStackSetRole"
-  description = "AWS Control Tower enables CloudTrail as a best practice and provides this role to CloudTrail. CloudTrail assumes this role to create and publish CloudTrail logs."
+  description = "AWS CloudFormation assumes this role to deploy stack sets in accounts created by AWS Control Tower."
   path        = "/service-role/"
   assume_role_policy = jsonencode({
     Version = "2012-10-17"
