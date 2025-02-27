@@ -1,55 +1,15 @@
 # 📖 ☁️ AWS Security Cookbook by Tyler
 Welcome to my AWS Security Cookbook - a collection of recipes (guides) to help you learn, build, and deploy security controls in AWS! 
 
-## Who is this for? 
-- Anyone looking to gain hands-on experience in securing AWS environments, whether you're a beginner or an experienced engineer.
+## How to Use
+This GitHub repo is a companion to my [AWS Security Cookbook](https://www.techwithtyler.dev/academy/aws-security-cookbook). 
+Inside you'll find terraform code serving as useful examples and for you to easily follow along with the lab guides. 
 
-## What's Inside a Recipe?
-  - 👨🏻‍🍳 Each recipe provides a high-level overview of a specific AWS security service, use case, or architectural design.
-
-  - 🏗️ Infrastructure as Code (IaC)
-    - Each recipe has ready-to-use Terraform code to automate deployments -- following best practices for cloud security engineers!
-    - I've kept the Terraform code fairly basic (e.g., no modules or other advanced features) to maximize simplicity and understanding. Once you have a good grasp of the deployment, use it as a reference and/or customize it to your needs!
+![CleanShot 2025-02-26 at 17 46 14@2x](https://github.com/user-attachments/assets/3cdf83d7-8176-4123-8972-02a81d0236d6)
 
 ## How to Get Started
-- Each recipe is self-contained, so you can start in any order! However, for simplicity, some recipes may reference others.
-
-## What's Covered? 
-- ✅ **Available recipes**
-
-- ☑️ **Upcoming recipes**
-
-#### Recipes 
-
-✅ AWS Organizations
-
-✅ AWS Control Tower
-
-✅ AWS Service Control Policies (SCPs)
-
-✅ AWS Root Account Management
-
-☑️ AWS Resource Control Policies (RCPs)
-
-☑️ AWS Declarative Policies
-
-☑️ AWS Identity Center
-
-☑️ And more... 
-
-----
-# FAQ 
-## What if I don't know Terraform?
-- No Terraform experience? No problem! I've provided all the necessary code—just follow these four simple steps:
-
-1. Within the recipe's `code` folder run `terraform init`
-2. Then `terraform plan` to see what will be built
-3. Then `terraform apply` to build the resources
-4. When you're done, run `terraform destroy` to delete the resources (good to avoid unneeded costs!) 
-
-- If you want to learn Terraform though here are some resources:
-  - [Terraform on AWS: From Zero to Cloud Infrastructure](https://cybr.com/courses/terraform-on-aws-from-zero-to-cloud-infrastructure/) (A course I developed with Christophe Limpalair from Cybr.com)
-  - [Official HashiCorp documentation](https://developer.hashicorp.com/terraform?product_intent=terraform)
+If you want to learn AWS security, head to [AWS Security Cookbook](https://www.techwithtyler.dev/academy/aws-security-cookbook) and choose any lab to start!
+Otherwise, you can use this code repository as a useful example for deploying and managing AWS security services.
 
 ## How much will this cost?
 - This content is completely free! However, some recipes may spin up AWS resources that incur costs.
